@@ -43,23 +43,24 @@ Linters errors
 ## Authors
 
 👤 **Author1**
-Aristides Jose Molina
+Aristides Jose Molina Pérez
 
 - GitHub: [@aristides1000](https://github.com/aristides1000)
 - Twitter: [@aristides_1000](https://twitter.com/@aristides_1000)
 - LinkedIn: [aristides jose molina perez](https://www.linkedin.com/in/aristides-jose-molina-perez-09b0579a)
 
 👤 **Author2**
-Carlos Eduardo Ospina
-- GitHub: [@carloso0114](https://github.com/carloso0114)
-- Twitter: [@Carlos_Osp1](https://twitter.com/Carlos_Osp1)
-- LinkedIn: [carlos ospina](https://www.linkedin.com/in/carlos-ospina-242b831a6/)
+Alejandro Guadalupe Contreras Rodríguez
+
+- GitHub: [@alejandroNo4](https://github.com/AlejandroNo4)
+- Twitter: [@Alejand80002666](https://twitter.com/Alejand80002666)
+- LinkedIn: [Alejandro Contreras Rodriguez](https://www.linkedin.com/in/alejandro-contreras-rodriguez-b524821b5)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/carloso0114/html-forms/issues).
+Feel free to check the [issues page](https://github.com/the-new-york-times-copy/issues).
 
 ## Show your support
 
