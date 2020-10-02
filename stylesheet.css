@@ -1,5 +1,69 @@
-.display_flex {
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+.navbar {
+  height: 1rem;
+  position: fixed;
+  top: 0rem;
+  left: 0rem;
+  right: 0rem;
+  border-bottom: 0.1rem solid #e2e2e2;
   display: flex;
+  justify-content: space-between;
+  height: 2.5rem;
+  align-items: center;
+  background-color: white;
+  font-family: 'Secular One', sans-serif;
+}
+
+.right-info-navbar {
+  display: flex;
+  align-items: center;
+}
+
+.delete-padding-block-start-end {
+  margin-block-start: 0rem;
+  margin-block-end: 0rem;
+}
+
+.nav-icons-1 {
+  margin: 0rem 0.5rem 0rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-icons-2 {
+  margin: 0rem 1.75rem 0rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-text {
+  text-decoration: none;
+  color: black;
+}
+
+.center-info-navbar {
+  cursor: pointer;
+}
+
+.button-subscribe-nav {
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  border-radius: 0.2rem;
+  color: white;
+  cursor: pointer;
+  margin: 0rem 1rem 0rem 0rem;
+  padding: 0.5rem;
+  font-size: 0.7rem;
+}
+
+.account-nav-item {
+  text-decoration: none;
+  color: black;
+}
+
+.margin-left-account {
+  margin: 0rem 1rem 0rem 0rem;
 }
 
 li {
@@ -174,4 +238,36 @@ ul {
   text-decoration: none;
   color: gray;
   padding: 0 1.5em;
+}
+
+.footer-navbar {
+  background-color: rgb(51, 51, 51);
+  position: fixed;
+  bottom: 0rem;
+  left: 0rem;
+  right: 0rem;
+  height: 3.5rem;
+  display: grid;
+  grid-column: 47% 47% 6%;
+  color: white;
+  align-items: center;
+  cursor: pointer;
+} 
+
+.first-grid {
+  grid-column: 2/4;
+  justify-content: center;
+  display: flex;
+  font-size: 0.9rem;
+}
+
+.second-grid {
+  grid-column: 4/4;
+  display: flex;
+}
+
+.font-size-footer-subscribe {
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin: 0rem 3rem 0rem 0rem;
 }
