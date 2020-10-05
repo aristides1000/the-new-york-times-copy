@@ -326,6 +326,7 @@ a {
   font-family: 'Roboto Slab', serif;
   font-size: 1.2rem;
   line-height: 2rem;
+  margin-bottom: 0.9375rem;
 }
 
 .article-sections {
@@ -371,4 +372,22 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.paragraph-link {
+  color: #326891;
+  text-decoration-line: underline;
+  text-decoration-color: #326891;
+}
+
+.paragraph-link:hover {
+  text-decoration: none;
+}
+
+.title-paragraph {
+  font-weight: 900;
+}
+
+.article-sections-1 {
+  display: flex;
 }
