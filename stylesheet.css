@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
 
-/****************************************************GLOBALES***************************************************/
 .display_flex {
   display: flex;
 }
@@ -14,17 +15,16 @@ li {
 ul {
   padding-left: 0;
 }
+
 a {
   text-decoration: none;
 }
 
-/*******************************************************NAvBAR*********************************************/
 .navbar {
-  height: 1rem;
   position: fixed;
-  top: 0rem;
-  left: 0rem;
-  right: 0rem;
+  top: 0;
+  left: 0;
+  right: 0;
   border-bottom: 0.1rem solid #e2e2e2;
   display: flex;
   justify-content: space-between;
@@ -40,18 +40,18 @@ a {
 }
 
 .delete-padding-block-start-end {
-  margin-block-start: 0rem;
-  margin-block-end: 0rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .nav-icons-1 {
-  margin: 0rem 0.5rem 0rem 1rem;
+  margin: 0 0.5rem 0 1rem;
   font-weight: bold;
   cursor: pointer;
 }
 
 .nav-icons-2 {
-  margin: 0rem 1.75rem 0rem 1rem;
+  margin: 0 1.75rem 0 1rem;
   font-weight: bold;
   cursor: pointer;
 }
@@ -71,7 +71,7 @@ a {
   border-radius: 0.2rem;
   color: white;
   cursor: pointer;
-  margin: 0rem 1rem 0rem 0rem;
+  margin: 0 1rem 0 0;
   padding: 0.5rem;
   font-size: 0.7rem;
 }
@@ -82,21 +82,22 @@ a {
 }
 
 .margin-left-account {
-  margin: 0rem 1rem 0rem 0rem;
+  margin: 0 1rem 0 0;
 }
-/************************************************TOP ARTICLE********************************************/
+
 .article-top {
-  margin: 5rem 0rem 0rem 0rem;
+  margin: 5rem 0 0 0;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   width: 75rem;
   grid-area: article-top;
+  position: absolute;
+  left: 18rem;
 }
 
 .main-title {
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
+  font-family: 'Sansita Swashed', cursive;
   font-weight: 700;
   font-style: italic;
   font-size: 2rem;
@@ -127,8 +128,6 @@ a {
   flex-direction: column;
 }
 
-/***************************************************top of the main article (social media, etc.)*********************/
-
 .autor-name-text {
   font-family: "Inter", sans-serif;
   font-weight: 700;
@@ -146,18 +145,18 @@ a {
 }
 
 .social-media-bar {
-  background-color: red;
   height: 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-/******************************************************Main Article*******************************************/
+
 .actual-article {
   grid-area: actual-article;
   justify-self: end;
   width: 35rem;
 }
+
 .aside-editor {
   grid-area: aside-editor;
   justify-self: center;
@@ -166,11 +165,37 @@ a {
   margin-top: 55rem;
   margin-left: 2rem;
 }
+
+.items_more_space > a > img {
+  width: 15.5em;
+}
+
+.items_more_space > a {
+  text-decoration: none;
+}
+
 .aside-editor > ul > li > a > img {
   width: 4rem;
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
 }
+
+.division-text > a {
+  color: #326891;
+}
+
+.footer_top > a {
+  text-decoration: none;
+  font-size: 0.5em;
+  color: blue;
+}
+
+.footer_bottom > li > a {
+  text-decoration: none;
+  color: gray;
+  padding: 0 1.5em;
+}
+
 .aside-editor > ul > li > a {
   align-items: center;
   font-size: 0.8rem;
@@ -201,14 +226,9 @@ article {
     "actual-article aside-editor";
 }
 
-/*************************division text*/
 .division-text {
   text-align: center;
   font-weight: bold;
-}
-
-.division-text > a > p {
-  margin-top: 0;
 }
 
 .division-text > p {
@@ -219,11 +239,9 @@ article {
   width: 5rem;
 }
 
-.division-text > a {
-  color: #326891;
+.division-text > a > p {
+  margin-top: 0;
 }
-
-/****************************************big bang image*********************************************/
 
 .bigbang-grid {
   display: grid;
@@ -233,7 +251,6 @@ article {
   margin-left: -11rem;
   background-repeat: no-repeat;
   align-items: end;
-  align-items: 1rem;
   width: 54rem;
   height: 35rem;
   font-size: 0.9rem;
@@ -248,27 +265,29 @@ article {
 .bigbang-bold-text {
   font-weight: bold;
 }
+
 .bigbang-bottom > hr {
   margin-left: 0;
   width: 4rem;
   background-color: black;
   height: 1px;
 }
+
 .bigbang-bottom {
   margin-left: -11rem;
   font-family: Arial, Helvetica, sans-serif;
 }
-/*continue main article*/
 
 .image-telescope {
   width: 100%;
 }
-/****************************************Bottom article***************************************/
+
 .bottom-article {
   font-size: 0.7rem;
   color: gray;
   width: 32rem;
 }
+
 .bottom-article > p > span > a {
   color: gray;
   border-bottom: 1px solid gray;
@@ -279,7 +298,7 @@ article {
   height: 3rem;
   background-color: blue;
 }
-/***********************************************Recomended Articles********************************************/
+
 .more_articles {
   flex-direction: row;
   width: 68em;
@@ -299,9 +318,11 @@ article {
   flex: 2.8;
   padding-right: 1.8em;
 }
+
 .line {
   border-top: 1px solid black;
 }
+
 .more_to_see {
   display: grid;
   grid-template: 1fr 1fr / 1fr 1fr 1fr;
@@ -309,17 +330,14 @@ article {
   border-bottom: 1px solid black;
 }
 
-/**********************************************Each item from "More in space"******************************/
 .items_more_space {
   flex-direction: column;
 }
 
-.items_more_space > a > img {
-  width: 15.5em;
-}
-
-.items_more_space > a {
-  text-decoration: none;
+.footers_more_space {
+  color: darkgray;
+  font-size: 0.5em;
+  margin-top: 0;
 }
 
 .items_more_space > a > .footers_more_space {
@@ -335,26 +353,17 @@ article {
   color: darkgray;
 }
 
-.footers_more_space {
-  color: darkgray;
-  font-size: 0.5em;
-  margin-top: 0;
-}
-/*************************************************Bottom Editor's Picks******************************************/
-
 .editor_picks {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
-/*****************************************************Most Popular*********************************************/
 .line_most_popular {
   border-top: 1px solid darkgray;
   margin: 0.8rem 0 0.8rem 0;
   padding-top: 1rem;
 }
 
-/************************************************* ADVERTISING LABEL********************************************/
 .advertising {
   z-index: -1;
   position: absolute;
@@ -369,7 +378,7 @@ article {
   font-size: 0.5em;
   text-align: center;
 }
-/*******************************************************************FOOTER***********************************/
+
 .footer_division {
   margin-top: 10em;
   border-top: 2px solid darkgray;
@@ -401,17 +410,17 @@ article {
   align-items: center;
 }
 
-.footer_top > a {
-  text-decoration: none;
-  font-size: 0.5em;
-  color: blue;
-}
-
 .bottom_list > ul > li > a {
   color: black;
   text-decoration: none;
   font-size: 0.7em;
   margin-bottom: 0.5em;
+}
+
+.footer_right > ul > li > a {
+  font-size: 0.5em;
+  text-decoration: none;
+  color: black;
 }
 
 .line_links > div > ul > li > a:hover {
@@ -421,12 +430,6 @@ article {
 .footer_right {
   border-left: 1px solid gray;
   padding: 0 1em;
-}
-
-.footer_right > ul > li > a {
-  font-size: 0.5em;
-  text-decoration: none;
-  color: black;
 }
 
 .subscribe_bold_anchors {
@@ -453,21 +456,15 @@ article {
   margin-bottom: 9em;
 }
 
-.footer_bottom > li > a {
-  text-decoration: none;
-  color: gray;
-  padding: 0 1.5em;
-}
-
 .footer-navbar {
   background-color: rgb(51, 51, 51);
   position: fixed;
-  bottom: 0rem;
-  left: 0rem;
-  right: 0rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
   height: 3.5rem;
   display: grid;
-  grid-column: 47% 47% 6%;
+  grid-template-columns: 47% 47% 6%;
   color: white;
   align-items: center;
   cursor: pointer;
@@ -488,7 +485,7 @@ article {
 .font-size-footer-subscribe {
   font-size: 0.75rem;
   font-weight: bold;
-  margin: 0rem 3rem 0rem 0rem;
+  margin: 0 3rem 0 0;
 }
 
 .paragraph-link {
@@ -503,4 +500,59 @@ article {
 
 .title-paragraph {
   font-weight: 900;
+}
+
+.date-social-media {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8rem;
+}
+
+.social-media-icons {
+  display: flex;
+}
+
+.shape-of-button {
+  border-radius: 50%;
+  background-color: #eee;
+  height: 1.5rem;
+  width: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.resize-icons {
+  font-size: 0.7rem;
+}
+
+.shape-of-button-void-structure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.another-resize-icons > [name~="bookmark-outline"],
+.another-resize-icons > [name~="chatbox-outline"] {
+  font-size: 1.5rem;
+}
+
+.relocation-numbers-messages {
+  font-size: 0.65rem;
+  position: absolute;
+}
+
+.button-read-comments {
+  background-color: rgb(50, 104, 145);
+  padding: 0.8rem 5rem;
+  border-radius: 0.2rem;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.lintr-warning {
+  font-size: 0.00001rem;
 }
