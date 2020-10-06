@@ -60,7 +60,7 @@ Alejandro Guadalupe Contreras Rodríguez
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/the-new-york-times-copy/issues).
+Feel free to check the [issues page](https://github.com/aristides1000/the-new-york-times-copy/issues).
 
 ## Show your support
 

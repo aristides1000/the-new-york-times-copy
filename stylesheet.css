@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@400;700&display=swap');
 
 .display_flex {
   display: flex;
@@ -32,6 +33,7 @@ a {
   align-items: center;
   background-color: white;
   font-family: "Secular One", sans-serif;
+  z-index: 2;
 }
 
 .right-info-navbar {
@@ -198,13 +200,14 @@ a {
 
 .aside-editor > ul > li > a {
   align-items: center;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: black;
 }
 
 .aside-editor > h5 {
   padding-bottom: 0.5rem;
   border-bottom: 1px solid gray;
+  font-size: 1.1rem;
 }
 
 .section-paragraph {
@@ -241,6 +244,24 @@ article {
 
 .division-text > a > p {
   margin-top: 0;
+}
+
+.bigbang-grid-title {
+  width: 54rem;
+  margin-left: -11rem;
+}
+
+.bigbang-grid-title-font {
+  font-family: 'David Libre', serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+.bigbang-grid-title-paragraph {
+  font-family: 'David Libre', serif;
+  font-weight: 400;
+  line-height: 1.4;
 }
 
 .bigbang-grid {
@@ -336,7 +357,7 @@ article {
 
 .footers_more_space {
   color: darkgray;
-  font-size: 0.5em;
+  font-size: 0.7em;
   margin-top: 0;
 }
 
@@ -418,7 +439,7 @@ article {
 }
 
 .footer_right > ul > li > a {
-  font-size: 0.5em;
+  font-size: 0.7em;
   text-decoration: none;
   color: black;
 }
@@ -449,7 +470,7 @@ article {
   flex-direction: row;
   justify-content: center;
   list-style: none;
-  font-size: 0.5em;
+  font-size: 0.7em;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   padding-top: 1.3em;
   border-top: 1px solid gray;
@@ -520,6 +541,13 @@ article {
   justify-content: center;
   align-items: center;
   margin-right: 1rem;
+  border: 1px solid #eee;
+  cursor: pointer;
+}
+
+.shape-of-button:hover {
+  background-color: white;
+  border: 1px solid #ccc;
 }
 
 .resize-icons {
@@ -533,14 +561,16 @@ article {
   margin-right: 1rem;
 }
 
-.another-resize-icons > [name~="bookmark-outline"],
-.another-resize-icons > [name~="chatbox-outline"] {
+.another-resize-icons > a > [name~="bookmark-outline"],
+.another-resize-icons > a > [name~="chatbox-outline"] {
   font-size: 1.5rem;
 }
 
 .relocation-numbers-messages {
   font-size: 0.65rem;
-  position: absolute;
+  position: relative;
+  right: 1.5rem;
+  bottom: 0.6rem;
 }
 
 .button-read-comments {
