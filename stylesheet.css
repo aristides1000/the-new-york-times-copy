@@ -95,7 +95,7 @@ a {
   width: 75rem;
   grid-area: article-top;
   position: absolute;
-  left: 18rem;
+  left: 13.5rem;
 }
 
 .main-title {
@@ -157,6 +157,8 @@ a {
   grid-area: actual-article;
   justify-self: end;
   width: 35rem;
+  position: relative;
+  left: -4.5rem;
 }
 
 .aside-editor {
