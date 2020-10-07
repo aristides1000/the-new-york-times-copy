@@ -168,43 +168,43 @@ a {
   margin-left: 2rem;
 }
 
-.items_more_space>a>img {
+.items_more_space > a > img {
   width: 15.5em;
 }
 
-.items_more_space>a {
+.items_more_space > a {
   text-decoration: none;
 }
 
-.aside-editor>ul>li>a>img {
+.aside-editor > ul > li > a > img {
   width: 4rem;
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
-.division-text>a {
+.division-text > a {
   color: #326891;
 }
 
-.footer_top>a {
+.footer_top > a {
   text-decoration: none;
   font-size: 0.5em;
   color: blue;
 }
 
-.footer_bottom>li>a {
+.footer_bottom > li > a {
   text-decoration: none;
   color: gray;
   padding: 0 1.5em;
 }
 
-.aside-editor>ul>li>a {
+.aside-editor > ul > li > a {
   align-items: center;
   font-size: 0.9rem;
   color: black;
 }
 
-.aside-editor>h5 {
+.aside-editor > h5 {
   padding-bottom: 0.5rem;
   border-bottom: 1px solid gray;
   font-size: 1.1rem;
@@ -234,15 +234,15 @@ article {
   font-weight: bold;
 }
 
-.division-text>p {
+.division-text > p {
   margin-bottom: 0;
 }
 
-.division-text>hr {
+.division-text > hr {
   width: 5rem;
 }
 
-.division-text>a>p {
+.division-text > a > p {
   margin-top: 0;
 }
 
@@ -287,7 +287,7 @@ article {
   font-weight: bold;
 }
 
-.bigbang-bottom>hr {
+.bigbang-bottom > hr {
   margin-left: 0;
   width: 4rem;
   background-color: black;
@@ -309,7 +309,7 @@ article {
   width: 32rem;
 }
 
-.bottom-article>p>span>a {
+.bottom-article > p > span > a {
   color: gray;
   border-bottom: 1px solid gray;
 }
@@ -361,7 +361,7 @@ article {
   margin-top: 0;
 }
 
-.items_more_space>a>.footers_more_space {
+.items_more_space > a > .footers_more_space {
   text-align: right;
 }
 
@@ -431,20 +431,20 @@ article {
   align-items: center;
 }
 
-.bottom_list>ul>li>a {
+.bottom_list > ul > li > a {
   color: black;
   text-decoration: none;
   font-size: 0.7em;
   margin-bottom: 0.5em;
 }
 
-.footer_right>ul>li>a {
+.footer_right > ul > li > a {
   font-size: 0.7em;
   text-decoration: none;
   color: black;
 }
 
-.line_links>div>ul>li>a:hover {
+.line_links > div > ul > li > a:hover {
   border-bottom: 1px solid black;
 }
 
@@ -561,8 +561,8 @@ article {
   margin-right: 1rem;
 }
 
-.another-resize-icons>a>[name~="bookmark-outline"],
-.another-resize-icons>a>[name~="chatbox-outline"] {
+.another-resize-icons > a > [name~="bookmark-outline"],
+.another-resize-icons > a > [name~="chatbox-outline"] {
   font-size: 1.5rem;
 }
 
