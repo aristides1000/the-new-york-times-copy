@@ -1,0 +1,586 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=David+Libre:wght@400;700&display=swap");
+
+.display_flex {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 0.1rem solid #e2e2e2;
+  display: flex;
+  justify-content: space-between;
+  height: 2.5rem;
+  align-items: center;
+  background-color: white;
+  font-family: "Secular One", sans-serif;
+  z-index: 2;
+}
+
+.right-info-navbar {
+  display: flex;
+  align-items: center;
+}
+
+.delete-padding-block-start-end {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.nav-icons-1 {
+  margin: 0 0.5rem 0 1rem;
+  font-weight: bold;
+}
+
+.nav-icons-2 {
+  margin: 0 1.75rem 0 1rem;
+  font-weight: bold;
+}
+
+.nav-text {
+  text-decoration: none;
+  color: black;
+}
+
+.button-subscribe-nav {
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 0.2rem;
+  color: white;
+  margin: 0 1rem 0 0;
+  padding: 0.5rem;
+  font-size: 0.7rem;
+}
+
+.account-nav-item {
+  text-decoration: none;
+  color: black;
+}
+
+.margin-left-account {
+  margin: 0 1rem 0 0;
+}
+
+.article-top {
+  margin: 5rem auto;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.main-title {
+  font-family: "Sansita Swashed", cursive;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.main-pic {
+  width: 100%;
+}
+
+.info-pic {
+  font-family: "Roboto Slab", serif;
+  color: gray;
+  width: 100%;
+  align-self: flex-start;
+  font-size: 0.9rem;
+}
+
+.Rick-Friedman {
+  font-size: 0.8rem;
+  color: darkgrey;
+}
+
+.img-top {
+  width: 59.5rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.autor-name-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.autor-name {
+  text-decoration-line: underline;
+  text-decoration-color: #ccc;
+  color: black;
+}
+
+.autor-name:hover {
+  text-decoration: none;
+}
+
+.social-media-bar {
+  height: 3rem;
+  width: 33rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actual-article {
+  position: relative;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40rem;
+}
+
+.aside-editor {
+  position: absolute;
+  width: 14rem;
+  right: 4rem;
+  top: 118rem;
+  height: 23rem;
+  margin-left: 2rem;
+}
+
+.items_more_space > a > img {
+  width: 15.5em;
+}
+
+.items_more_space > a {
+  text-decoration: none;
+}
+
+.aside-editor > ul > li > a > img {
+  width: 4rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.division-text > p {
+  margin-bottom: 0;
+}
+
+.division-text > a > p {
+  margin-top: 0;
+}
+
+.aside-editor > ul > li > a > p {
+  margin: 0;
+}
+
+.division-text > a {
+  color: #326891;
+}
+
+.footer_top > a {
+  text-decoration: none;
+  font-size: 0.5em;
+  color: blue;
+}
+
+.shape-of-button > a {
+  color: black;
+}
+
+.footer_bottom > li > a {
+  text-decoration: none;
+  color: gray;
+  padding: 0.5rem;
+}
+
+.aside-editor > ul > li > a {
+  align-items: center;
+  font-size: 0.9rem;
+  color: black;
+}
+
+.aside-editor > h5 {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid gray;
+  font-size: 1.1rem;
+}
+
+.section-paragraph {
+  width: 34rem;
+  color: rgb(58, 57, 57);
+  text-align: left;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  margin-top: 1rem;
+}
+
+.division-text {
+  text-align: center;
+  font-weight: bold;
+}
+
+.division-text > hr {
+  width: 5rem;
+}
+
+.bigbang-grid-title {
+  width: 54rem;
+}
+
+.bigbang-grid-title-font {
+  font-family: "David Libre", serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+.bigbang-grid-title-paragraph {
+  font-family: "David Libre", serif;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.bigbang-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  background-image: url("assets/inflation-945.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  align-items: end;
+  width: 54rem;
+  height: 35rem;
+  font-size: 0.9rem;
+}
+
+.bigbang-rows {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 1rem;
+}
+
+.bigbang-bold-text {
+  font-weight: bold;
+}
+
+.bigbang-bottom > hr {
+  margin-left: 0;
+  width: 4rem;
+  background-color: black;
+  height: 1px;
+}
+
+.bigbang-bottom {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.div100 {
+  width: 34rem;
+}
+
+.image-telescope {
+  width: 100%;
+}
+
+.bottom-article {
+  font-size: 0.7rem;
+  color: gray;
+  width: 32rem;
+}
+
+.bottom-article > p > span > a {
+  color: gray;
+  border-bottom: 1px solid gray;
+}
+
+.button-social-bottom {
+  width: 32rem;
+  height: 3rem;
+  background-color: blue;
+}
+
+.more_articles {
+  flex-direction: row;
+  width: 68em;
+  margin: 5rem auto 2rem auto;
+}
+
+.article_title {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.most_popular {
+  flex: 1;
+}
+
+.articles_left {
+  flex-direction: column;
+  flex: 2.8;
+  padding-right: 1.8em;
+}
+
+.line {
+  border-top: 1px solid black;
+}
+
+.more_to_see {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr;
+  column-gap: 1em;
+  border-bottom: 1px solid black;
+}
+
+.items_more_space {
+  flex-direction: column;
+}
+
+.footers_more_space {
+  color: darkgray;
+  font-size: 0.7em;
+  margin-top: 0;
+}
+
+.items_more_space > a > .footers_more_space {
+  text-align: right;
+}
+
+.turns_gray {
+  margin: 0.2em 0;
+  color: black;
+}
+
+.turns_gray:hover {
+  color: darkgray;
+}
+
+.editor_picks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
+}
+
+.line_most_popular {
+  border-top: 1px solid darkgray;
+  margin: 0.8rem 0 0.8rem 0;
+  padding-top: 1rem;
+}
+
+.advertising {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin: 1rem 0;
+  height: 12em;
+  background-color: darkgray;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.5em;
+  text-align: center;
+}
+
+.footer_division {
+  margin-top: 10em;
+  border-top: 2px solid darkgray;
+  height: 1px;
+  border-bottom: 1px solid darkgray;
+  margin-bottom: 0.5em;
+}
+
+.footer {
+  margin: 0 auto;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 68em;
+}
+
+.footer_subtitle {
+  margin: 1.5em 0 0.5em 0;
+  font-size: 0.65em;
+  font-weight: bolder;
+}
+
+.footer_list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.footer_top {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom_list > ul > li > a {
+  color: black;
+  text-decoration: none;
+  font-size: 0.7em;
+  margin-bottom: 0.5em;
+}
+
+.footer_right > ul > li > a {
+  font-size: 0.7em;
+  text-decoration: none;
+  color: black;
+}
+
+.line_links > div > ul > li > a:hover {
+  border-bottom: 1px solid black;
+}
+
+.footer_right {
+  border-left: 1px solid gray;
+  padding: 0 1em;
+}
+
+.subscribe_bold_anchors {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-size: 0.8em;
+}
+
+.line_bottom_gray {
+  border-bottom: 1px solid gray;
+  margin-top: 0.2em;
+  margin-bottom: 0.4em;
+}
+
+.footer_bottom {
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  font-size: 0.7em;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding-top: 1.3em;
+  border-top: 1px solid gray;
+  margin-bottom: 9em;
+  width: 69rem;
+}
+
+.footer-navbar {
+  background-color: white;
+  border-top: 1px solid black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3.5rem;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-navbar-anchorone {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+}
+
+.footer-navbar-anchortwo {
+  position: absolute;
+  font-size: 1.2rem;
+  margin-right: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  color: black;
+}
+
+.paragraph-link {
+  color: #326891;
+  text-decoration-line: underline;
+  text-decoration-color: #326891;
+}
+
+.paragraph-link:hover {
+  text-decoration: none;
+}
+
+.title-paragraph {
+  font-weight: 900;
+}
+
+.date-social-media {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
+}
+
+.social-media-icons {
+  display: flex;
+}
+
+.shape-of-button {
+  border-radius: 50%;
+  background-color: #eee;
+  color: black;
+  height: 1.5rem;
+  width: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+  border: 1px solid #eee;
+}
+
+.shape-of-button:hover {
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.resize-icons {
+  font-size: 0.8rem;
+}
+
+.shape-of-button-void-structure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.another-resize-icons > a > [name~="bookmark-outline"],
+.another-resize-icons > a > [name~="chatbox-outline"] {
+  font-size: 1.5rem;
+}
+
+.relocation-numbers-messages {
+  font-size: 0.65rem;
+  position: relative;
+  right: 1.5rem;
+  bottom: 0.6rem;
+}
+
+.button-read-comments {
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  padding: 0.8rem 5rem;
+  border-radius: 0.2rem;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.lintr-warning {
+  display: none;
+}
