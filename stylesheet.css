@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=David+Libre:wght@400;700&display=swap");
 
 .display_flex {
   display: flex;
@@ -49,13 +49,11 @@ a {
 .nav-icons-1 {
   margin: 0 0.5rem 0 1rem;
   font-weight: bold;
-  cursor: pointer;
 }
 
 .nav-icons-2 {
   margin: 0 1.75rem 0 1rem;
   font-weight: bold;
-  cursor: pointer;
 }
 
 .nav-text {
@@ -63,16 +61,12 @@ a {
   color: black;
 }
 
-.center-info-navbar {
-  cursor: pointer;
-}
-
 .button-subscribe-nav {
   background-color: rgb(86, 123, 149);
   border: 1px solid rgb(50, 104, 145);
+  font-family: Arial, Helvetica, sans-serif;
   border-radius: 0.2rem;
   color: white;
-  cursor: pointer;
   margin: 0 1rem 0 0;
   padding: 0.5rem;
   font-size: 0.7rem;
@@ -88,16 +82,16 @@ a {
 }
 
 .article-top {
-  margin: auto;
+  margin: 5rem auto;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 80rem;
-  grid-area: article-top;
+  width: 100%;
+  position: relative;
 }
 
 .main-title {
-  font-family: 'Sansita Swashed', cursive;
+  font-family: "Sansita Swashed", cursive;
   font-weight: 700;
   font-style: italic;
   font-size: 2rem;
@@ -111,7 +105,7 @@ a {
 .info-pic {
   font-family: "Roboto Slab", serif;
   color: gray;
-  width: 46rem;
+  width: 100%;
   align-self: flex-start;
   font-size: 0.9rem;
 }
@@ -122,7 +116,7 @@ a {
 }
 
 .img-top {
-  width: 54rem;
+  width: 59.5rem;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -146,25 +140,27 @@ a {
 
 .social-media-bar {
   height: 3rem;
+  width: 33rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .actual-article {
-  grid-area: actual-article;
-  justify-self: end;
-  width: 35rem;
   position: relative;
-  left: -4.5rem;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40rem;
 }
 
 .aside-editor {
-  grid-area: aside-editor;
-  justify-self: center;
+  position: absolute;
   width: 14rem;
+  right: 4rem;
+  top: 118rem;
   height: 23rem;
-  margin-top: 55rem;
   margin-left: 2rem;
 }
 
@@ -182,6 +178,18 @@ a {
   margin-bottom: 0.5rem;
 }
 
+.division-text > p {
+  margin-bottom: 0;
+}
+
+.division-text > a > p {
+  margin-top: 0;
+}
+
+.aside-editor > ul > li > a > p {
+  margin: 0;
+}
+
 .division-text > a {
   color: #326891;
 }
@@ -192,10 +200,14 @@ a {
   color: blue;
 }
 
+.shape-of-button > a {
+  color: black;
+}
+
 .footer_bottom > li > a {
   text-decoration: none;
   color: gray;
-  padding: 0 1.5em;
+  padding: 0.5rem;
 }
 
 .aside-editor > ul > li > a {
@@ -220,46 +232,28 @@ a {
   margin-top: 1rem;
 }
 
-article {
-  display: grid;
-  grid-template-rows: 1fr 10fr;
-  grid-template-columns: 3fr 1fr;
-  grid-template-areas:
-    "article-top article-top"
-    "actual-article aside-editor";
-}
-
 .division-text {
   text-align: center;
   font-weight: bold;
-}
-
-.division-text > p {
-  margin-bottom: 0;
 }
 
 .division-text > hr {
   width: 5rem;
 }
 
-.division-text > a > p {
-  margin-top: 0;
-}
-
 .bigbang-grid-title {
   width: 54rem;
-  margin-left: -11rem;
 }
 
 .bigbang-grid-title-font {
-  font-family: 'David Libre', serif;
+  font-family: "David Libre", serif;
   font-weight: 700;
   font-size: 1.5rem;
   line-height: 1.6;
 }
 
 .bigbang-grid-title-paragraph {
-  font-family: 'David Libre', serif;
+  font-family: "David Libre", serif;
   font-weight: 400;
   line-height: 1.4;
 }
@@ -269,7 +263,6 @@ article {
   grid-template-rows: 1fr 1fr;
   background-image: url("assets/inflation-945.png");
   background-size: 100%;
-  margin-left: -11rem;
   background-repeat: no-repeat;
   align-items: end;
   width: 54rem;
@@ -295,8 +288,11 @@ article {
 }
 
 .bigbang-bottom {
-  margin-left: -11rem;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.div100 {
+  width: 34rem;
 }
 
 .image-telescope {
@@ -377,6 +373,7 @@ article {
 .editor_picks {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
 }
 
 .line_most_popular {
@@ -475,38 +472,38 @@ article {
   padding-top: 1.3em;
   border-top: 1px solid gray;
   margin-bottom: 9em;
+  width: 69rem;
 }
 
 .footer-navbar {
-  background-color: rgb(51, 51, 51);
+  background-color: white;
+  border-top: 1px solid black;
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   height: 3.5rem;
-  display: grid;
-  grid-template-columns: 47% 47% 6%;
-  color: white;
+  justify-content: flex-end;
   align-items: center;
-  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.first-grid {
-  grid-column: 2/4;
-  justify-content: center;
-  display: flex;
-  font-size: 0.9rem;
+.footer-navbar-anchorone {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
 }
 
-.second-grid {
-  grid-column: 4/4;
-  display: flex;
-}
-
-.font-size-footer-subscribe {
-  font-size: 0.75rem;
-  font-weight: bold;
-  margin: 0 3rem 0 0;
+.footer-navbar-anchortwo {
+  position: absolute;
+  font-size: 1.2rem;
+  margin-right: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  color: black;
 }
 
 .paragraph-link {
@@ -524,7 +521,7 @@ article {
 }
 
 .date-social-media {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 0.8rem;
 }
 
@@ -535,6 +532,7 @@ article {
 .shape-of-button {
   border-radius: 50%;
   background-color: #eee;
+  color: black;
   height: 1.5rem;
   width: 1.5rem;
   display: flex;
@@ -542,7 +540,6 @@ article {
   align-items: center;
   margin-right: 1rem;
   border: 1px solid #eee;
-  cursor: pointer;
 }
 
 .shape-of-button:hover {
@@ -551,7 +548,7 @@ article {
 }
 
 .resize-icons {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 .shape-of-button-void-structure {
@@ -574,15 +571,16 @@ article {
 }
 
 .button-read-comments {
-  background-color: rgb(50, 104, 145);
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
   padding: 0.8rem 5rem;
   border-radius: 0.2rem;
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 0.8rem;
 }
 
 .lintr-warning {
-  font-size: 0.00001rem;
+  display: none;
 }
